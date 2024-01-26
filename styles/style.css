@@ -23,17 +23,14 @@
     letter-spacing: 20px;
 }
 
-.article{
+.article ,#cow-type{
     width: 80%;
     margin: 60px auto;
-    border-width: 15px;
-    border-color: yellowgreen;
-    border-style: groove;
-    background-color: aqua;
+
     padding: 20px;
 }
 
-.article h2{
+.article h2 , #cow-type h2{
     text-align: center;
     font-size: 50px;
     border-color: yellowgreen;
@@ -50,5 +47,18 @@
 .article p{
     font-size: 30px;
     line-height: 2em;
+}
+ 
+.cow-images{
+    display: flex;
+    flex-direction: row;
+}
+
+.cow-images div{
+    min-width: 300px;
+}
+
+.cow-images img{
+    width: 100%;
 }
 
